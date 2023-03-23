@@ -1,0 +1,28 @@
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    text-align: start;
+}
+
+.bar {
+    height: 1.5rem;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.skill-bar{
+    width: 20rem;
+}
+
+@media only screen and (max-width: 700px){
+    .skill-bar{
+        width: 15rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    .skill-bar{
+        display: none;
+    }
+}

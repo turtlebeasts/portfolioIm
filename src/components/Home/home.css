@@ -1,0 +1,30 @@
+.home{
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .home{
+        width: auto;
+    }
+}
+
+.card {
+    box-shadow: -5px 5px 20px 0px rgba(0,0,0,0.3);
+    padding: 2rem;
+}
+
+.avatar{
+    width: 20vh;
+    border-radius: 50%;
+}
+
+.home h1, p{
+    margin: 0;
+    padding: 0;
+}

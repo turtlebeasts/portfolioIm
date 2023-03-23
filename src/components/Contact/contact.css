@@ -1,0 +1,62 @@
+.contact{
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .contact{
+        width: auto;
+    }
+}
+
+.card {
+    box-shadow: -5px 5px 20px 0px rgba(0,0,0,0.3);
+    padding: 2rem;
+}
+
+.contact input{
+    margin-top: 2rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    outline: none;
+}
+
+.contact input:focus{
+    border-bottom: 3px solid;
+}
+
+.contact textarea{
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid;
+    outline: none;
+    border-radius: 10px;
+    padding-top: 1rem;
+}
+
+.contact textarea:focus{
+    border: 3px solid;
+}
+
+.contact button {
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.contact button:hover{
+    filter: brightness(1.2);
+    transition: 0.3s;
+}
+
+.contact button:active{
+    filter: brightness(1.5);
+}

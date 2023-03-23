@@ -1,0 +1,28 @@
+.cust-bar{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.color-drawer{
+    max-width: 500px;
+}
+
+.color-drawer p, i{
+    padding: 0;
+    margin: 0;
+}
+
+.cust-bar:hover{
+    background-color: antiquewhite;
+    transition: 2s;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.color-pallet{
+    transition: 1s;
+}

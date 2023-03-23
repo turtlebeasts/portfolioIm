@@ -1,0 +1,36 @@
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.navigation a{
+    color: grey;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: black;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.wrapper{
+    display: flex;
+    border-left: 2px solid blueviolet;
+}
+
+@media only screen and (max-width: 1000px){
+    .navigation .wrapper .names{
+        display: none;
+    }
+}

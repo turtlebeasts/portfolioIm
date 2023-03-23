@@ -1,0 +1,17 @@
+.picker {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.color-button{
+    border: none;
+    outline: none;
+    width: 4rem;
+    transition: 1s;
+}
+
+.color-button:hover{
+    filter: brightness(1.75);
+    transition: 1s;
+}

@@ -33,4 +33,19 @@
     .navigation .wrapper .names{
         display: none;
     }
+    .navigation{
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .navigation ul{
+        flex-direction: row;
+    }
+    .wrapper{
+        border-left: 0;
+        border-top: 2px solid;
+    }
 }

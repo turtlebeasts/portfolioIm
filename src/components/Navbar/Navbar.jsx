@@ -6,7 +6,7 @@ export default function Navbar() {
   const {color} = useContext(themeContext)
   return (
     <div className="navbar">
-      <i className="fa-solid fa-sun" style={{ paddingTop: "2rem", color: color }}></i>
+      <i className="fa-solid fa-sun" style={{ color: color }}></i>
       <h1 className="navbrand">Turtle<span className="date" style={{color: color}}>beasts</span></h1>
       <span className="date" style={{color: color}}>
         2023

@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.fa-sun{
+    padding-top: 2rem;
+}
+
 .navbrand{
     writing-mode: vertical-lr;
     text-orientation: mixed;
@@ -15,4 +19,19 @@
 
 .date{
     color: blueviolet;
+}
+
+@media only screen and (max-width: 700px){
+    .navbar{
+        flex-direction: row;
+        position: fixed;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbrand{
+        writing-mode: horizontal-tb;
+    }
+    .fa-sun{
+        padding-top: 0;
+    }
 }

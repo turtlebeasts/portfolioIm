@@ -6,7 +6,7 @@ export default function Navigation({Switch}=prop) {
   const {color} = useContext(themeContext)
   return (
     <div className="navigation">
-      <div className="wrapper" style={{borderLeftColor: color}}>
+      <div className="wrapper" style={{borderBlockColor: color}}>
         <ul className="icons">
           <li>
             <a onClick={()=>Switch(0)}>

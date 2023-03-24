@@ -10,10 +10,10 @@ export default function CustBar() {
         <div className="color-pallet" style={{display: hidden?"none":"block"}}>
             <Picker toggle={setHidden}/>
         </div>
-        <span onClick={()=>setHidden(!hidden)}>
+        <div onClick={()=>setHidden(!hidden)} className="picker">
           <p>Choose accent color</p>
           <i className="fa-solid fa-caret-down"></i>
-        </span>
+        </div>
       </div>
     </div>
   );
